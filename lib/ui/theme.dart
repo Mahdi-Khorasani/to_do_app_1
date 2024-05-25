@@ -13,13 +13,15 @@ Color darkHeaderClr = Color(0xFF424242);
 class Themes{
 
 static final light= ThemeData(
-  backgroundColor: Colors.white,
+    colorScheme: ColorScheme.light(),
   primaryColor: primaryClr,
   brightness: Brightness.light
   );
 
+
+
   static final dark = ThemeData(
-    backgroundColor: darkGreyClr,
+      colorScheme: ColorScheme.dark(),
   primaryColor: darkGreyClr,
   brightness: Brightness.dark
 

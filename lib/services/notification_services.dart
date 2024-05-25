@@ -61,7 +61,6 @@ class NotifyHelper{
         const NotificationDetails(
             android: AndroidNotificationDetails('your channel id',
                 'your channel name', )),
-        androidAllowWhileIdle: true,
         uiLocalNotificationDateInterpretation:
         UILocalNotificationDateInterpretation.absoluteTime,
         matchDateTimeComponents: DateTimeComponents.time,

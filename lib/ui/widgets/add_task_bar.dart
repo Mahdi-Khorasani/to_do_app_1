@@ -42,7 +42,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: context.theme.backgroundColor,
+      backgroundColor: Colors.white,
       appBar: _appBar(context),
       body: Container(
         padding: const EdgeInsets.only(left: 20, right: 20),
@@ -231,7 +231,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
   _appBar(BuildContext context){
     return AppBar(
       elevation: 0,
-      backgroundColor: context.theme.backgroundColor,
+      backgroundColor: Colors.white,
       leading: GestureDetector(
         onTap: (){
             Get.back();
